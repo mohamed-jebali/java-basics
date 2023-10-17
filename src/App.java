@@ -4,11 +4,11 @@ public class App {
         int x = 4;
         // Java e' un linguaggio che richiede la tipizazzione delle variabili
         // inizializzione e assegnazione variabile uguale a 4 di tipo intero
-        int y = 5;
+        int y = 4;
         int z = x + y;
 
         
-        // if else sono a livello di sinstassi e' simile a JS\
+        // if else sono a livello di sintassi e' simile a JS
         // per quanto riguarda la visualizzazione del codice in console
         // si usa System.out.println 'println' dice al codice di andare a capo
         // se fosse solo System.out.print il codice in console non va a capo
@@ -41,5 +41,23 @@ public class App {
         System.out.println(doubleNumber + " è di tipo " + Double.TYPE);
         System.out.println(charLetter + " è di tipo " + Character.TYPE);
         System.out.println(stringWord + " è di tipo " + String.class.getName());
-            }
+
+
+        // CASTING
+
+        // CASTING IMPLICITO
+        short shortImplicit = 20;
+        int intImplicit = shortImplicit; // Casting implicito da short a int
+
+        System.out.println("Valore di shortImplicit: " + shortImplicit);
+        System.out.println("Valore di intImplicit (risultante dal casting implicito): " + intImplicit);
+
+        // CASTING ESPERESSO
+        int intExplicit = 40000000;
+        short shortExplicit = (short) intExplicit; // Casting esplicito da int a short c'e' una perdita di dati dovuta al cambio di tipo ciò può comportare la perdita di informazioni se il valore originale è al di fuori dell'intervallo consentito per un short.
+
+        System.out.println("Valore di intExplicit: " + intExplicit);
+        System.out.println("Valore di shortExplicit (risultante dal casting esplicito): " + shortExplicit);
+
+    }
 }
