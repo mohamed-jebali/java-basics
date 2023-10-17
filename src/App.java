@@ -20,8 +20,26 @@ public class App {
             System.out.println("the number is Odd");
         }
 
-        // TIPI DI DATI 
+        // TIPI DI DATI
+        boolean booleanData = true;  // Tipo di dato primitivo booleano: può essere true o false
+        byte byteData = 127;          // Tipo di dato primitivo byte: dati da -128 a 127
+        int integerNumber = 10;       // Tipo di dato primitivo int: dati da -2 miliardi a 2 miliardi
+        short shortNumber = 32767;    // Tipo di dato primitivo short: dati da -32768 a 32767
+        long longNumber = 90000000000000000L; // Tipo di dato primitivo long: dati da -9 quintilioni a 9 quintilioni, utilizzare 'L' alla fine per specificare il tipo di dato
+        float floatNumber = 5.165656565F; // Tipo di dato primitivo float: consente l'uso di 7 cifre decimali, utilizzare 'F' alla fine per specificare il tipo di dato
+        double doubleNumber = 54.4545454;  // Tipo di dato primitivo double: può usare fino a 15 cifre decimali
+        char charLetter = 'c';   // Tipo di dato primitivo char: può contenere una singola lettera racchiusa tra virgolette singole
+        String stringWord = "hello world"; // String: una classe per rappresentare sequenze di caratteri
 
-        
-    }
+        // Stampa il tipo di dato di ciascuna variabile
+        System.out.println(booleanData + " è di tipo " + Boolean.TYPE);
+        System.out.println(byteData + " è di tipo " + Byte.TYPE);
+        System.out.println(integerNumber + " è di tipo " + Integer.TYPE);
+        System.out.println(shortNumber + " è di tipo " + Short.TYPE);
+        System.out.println(longNumber + " è di tipo " + Long.TYPE);
+        System.out.println(floatNumber + " è di tipo " + Float.TYPE);
+        System.out.println(doubleNumber + " è di tipo " + Double.TYPE);
+        System.out.println(charLetter + " è di tipo " + Character.TYPE);
+        System.out.println(stringWord + " è di tipo " + String.class.getName());
+            }
 }

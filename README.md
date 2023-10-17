@@ -17,7 +17,7 @@ All'interno del progetto ci sono delle cartelle:
 
 Java è un linguaggio compilato, il che significa che quando compili il tuo codice sorgente, verranno creati file all'interno di una cartella di output, solitamente denominata bin. Questi file contengono il bytecode generato dal compilatore
 
-## Processo di Compilazione e Esecuzione
+## Processo di Compilazione/Esecuzione
 
 Il processo di sviluppo in Java coinvolge diverse fasi:
 
