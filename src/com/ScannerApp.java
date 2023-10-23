@@ -1,3 +1,4 @@
+package com; // creare la cartella com
 import java.util.Scanner; // Importo il package Scanner
 
 public class ScannerApp {
@@ -7,8 +8,19 @@ public class ScannerApp {
         System.out.println("Inserisci il tuo nome: "); // Messaggio che chiede di inserire il nome
         String nome = scan.next(); // Leggo il nome inserito
 
+
+        if(nome.equals("Jack") || nome.equals("John")){ // il metodo .equals() confronta le stringhe usando l'operatore logico OR(||)
+            System.out.println("SEI TRA I VIP!");
+        }
+
         System.out.println("Inserisci il tuo cognome: "); // Messaggio che chiede di inserire il nome
         String cognome = scan.next(); // Leggo il nome inserito
+
+        if(nome.equals("Benito") && cognome.equals("Mussolini")){
+            System.out.println("SEI NELLA LISTA NERA NON PUOI ENTRARE");
+
+            scan.close();
+        }
 
         System.out.println("Inserisci il numero della classe: "); // Messaggio che chiede di inserire il nome
         int classe = scan.nextInt(); // Leggo il nome inserito
