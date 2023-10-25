@@ -54,7 +54,7 @@ public class QuizApp {
         System.out.println("Domanda n. 4) Qual' è il significato della bandiera dell' UE??");
         System.out.println("A) le 12 stelle significano i dodici membri appartenenti all'unione");
         System.out.println("B) le stelle rappresentano gli'ideali di unita' solidarieta' e armonia tra i popoli dell'unione");
-        System.out.println("C) le stelle rappresentano i gli stati fondatori dell'unione");
+        System.out.println("C) le stelle rappresentano gli stati fondatori dell'unione");
         char quiz4 = input.next().charAt(0);
 
           if(quiz4 == 'B' || quiz4 == 'b'){
