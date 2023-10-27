@@ -10,7 +10,7 @@ public class Exercise8 {
 
         String inputUser = input.nextLine();
 
-        while (!(inputUser.equals("gesu cristo") || inputUser.equals("Gesu Cristo"))) {
+        while (!(inputUser.equalsIgnoreCase("gesu cristo"))) { // ciclo while una condizione per cui per uscirne deve essere uguale alla parola gesu cristo se la parola non e' corretta il ciclo chiede anche ancora di inserire un input
             if((inputUser.equals("Gesu")) || (inputUser.equals("gesu")) ){
                 System.out.println("Figliolo sei sulla retta via");
             }
@@ -24,6 +24,7 @@ public class Exercise8 {
         }
 
         System.out.println("L'unico figlio di Dio!");
+
 
         input.close();
 
