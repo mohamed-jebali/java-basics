@@ -16,6 +16,7 @@ public class Exercise10 {
             }
         }
     
+        System.out.println("prova pull request");
     
     
         input.close();
