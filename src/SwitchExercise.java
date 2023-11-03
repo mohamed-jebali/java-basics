@@ -25,9 +25,21 @@ public class SwitchExercise {
              System.out.println("Sbagliato ma ci sei andato vicino");
              break;
         
-            default:
+            default: // simile al else si verifica quando non ci sono i case precedenti
               System.out.println("Sbagliato riprova");
                 break;
+        }
+
+
+        for (int i = 1; i < 10; i++) {
+            if(i % 2 == 0){
+                continue; // continue salta l'iterazione 
+            }
+            if(i == 5){
+                break; // interrompe l'interazione
+            }
+
+            System.out.println(i);
         }
 
 
