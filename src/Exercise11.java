@@ -21,7 +21,7 @@ public class Exercise11 {
     }
 }
 
-// Esercizio 1
+// Esercizio 11
 
 // Scrivere un programma in Java per visualizzare la tabella di moltiplicazione di un dato numero intero.
 
