@@ -24,5 +24,6 @@ public class ArrayExercise {
         String[] arrayStringhe = {"Easter","Halloween","Christmas"}; // definizione di un array di stringhe in questo la size e' sottoinstesa
 
         System.out.println(arrayStringhe[1]); // output Hallowen
+
     }
 }
