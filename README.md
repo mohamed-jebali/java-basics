@@ -1,7 +1,7 @@
 # Guida all'installazione di Java su macOS
 
 <p align="center">
-<a href="https://angular.io/" target="_blank"><img src="https://www.vincenzoracca.com/images/java.png" height="150"></a>
+<a href="https://angular.io/" target="_blank"><img src="https://www.vincenzoracca.com/images/java.png" height="250"></a>
 
 ## Java su Visual Studio Code
 
