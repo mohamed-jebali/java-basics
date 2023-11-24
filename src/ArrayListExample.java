@@ -25,7 +25,7 @@ public class ArrayListExample {
 
         boolean containsNumber = false;
 
-        for (int i = 0; i < listaNumeri.size(); i++) {
+        for (int i = 0; i < listaNumeri.size(); i++) { // in questo ciclo for bisogna usare il metodo size dato che ArrayList e un tipo di dato ArrayList
             if(listaNumeri.contains(102)){
                 containsNumber = true;
             }
