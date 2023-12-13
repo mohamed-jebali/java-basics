@@ -15,14 +15,14 @@ All'interno del progetto ci sono delle cartelle:
     src: questa cartella contiene il codice sorgente del tuo progetto.
     lib: è possibile utilizzare questa cartella per gestire le librerie e le dipendenze esterne del progetto.
 
-Java è un linguaggio compilato, il che significa che quando compili il tuo codice sorgente, verranno creati file all'interno di una cartella di output, solitamente denominata bin. Questi file contengono il bytecode generato dal compilatore
+Java è un linguaggio compilato, il che significa che quando compili il tuo codice sorgente, verranno creati file all'interno di una cartella di output, solitamente denominata bin. Questi file contengono il bytecode generato dal compilatore Java Compiler javac
 
 ## Processo di Compilazione/Esecuzione
 
 Il processo di sviluppo in Java coinvolge diverse fasi:
 
     Lo sviluppatore scrive il codice sorgente in Java ad alto livello.
-    Il codice sorgente Java viene compilato dalla JVM in bytecode. Il bytecode è un linguaggio intermedio che è altamente portatile e può essere eseguito su diverse piattaforme.
+    Il codice sorgente Java viene compilato da javac (Java Compiler) in bytecode. Il bytecode è un linguaggio intermedio che è altamente portatile e può essere eseguito su diverse piattaforme.
     La JVM specifica per il sistema operativo in uso interpreta il bytecode e lo esegue, convertendolo in istruzioni del linguaggio macchina specifiche per quel sistema operativo.
 
 Questo processo consente di scrivere codice Java una volta e di eseguirlo su diverse piattaforme senza doverlo adattare per ciascuna di esse.
